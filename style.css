@@ -89,3 +89,41 @@ button
     display: none;
 }
 
+
+
+@media (min-width: 220px) and (max-width: 520px) {
+  .card {
+    width: 60%;
+    max-width: 300px;
+    background: linear-gradient(130deg, #cdca73, #726ba0);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 25px 20px;
+    text-align: center;
+  }
+
+  .search input {
+    border: 0px;
+    outline: 0px;
+    background-color: #ebfffc;
+    width: 130px;
+    height: 32px;
+    border-radius: 28px;
+    padding-left: 15px;
+    font-size: 0.9rem;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 15px;
+    margin-top: -6px;
+  }
+
+  .hm,
+  .wn {
+    font-size: 10px;
+  }
+}
+
+
